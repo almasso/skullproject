@@ -1,0 +1,88 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #444;
+}
+
+.logo {
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+#logoImg {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 3px;
+    left: 16px;
+}
+
+.cart {
+    font-size: 1.2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.active {
+    text-decoration: underline;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.product-card {
+    text-align: center;
+    background-color: #111;
+    padding: 1rem;
+    width: 200px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-name {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.price {
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.add-button {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+}
