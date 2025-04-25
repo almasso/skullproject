@@ -1,7 +1,17 @@
+@font-face {
+    font-family: "Honk";
+    src:url(../assets/fonts/Honk-Regular.otf)
+}
+
 body {
     background-color: #000;
     color: #fff;
-    font-family: monospace;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "ROND" 0;
     margin: 0;
     padding: 0;
 }
@@ -14,6 +24,26 @@ header {
     border-bottom: 1px solid #444;
 }
 
+header a {
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-top: 0.13rem;
+    border-top: 1px solid #444;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .logo {
     font-size: 1.5rem;
     width: 3rem;
@@ -21,8 +51,8 @@ header {
 }
 
 #logoImg {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     position: absolute;
     top: 3px;
     left: 16px;
@@ -36,17 +66,44 @@ nav {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin: 1rem 0;
+    background-color: #000;
+    padding: 1rem 0;
 }
 
 nav a {
-    color: #fff;
+    position: relative;
     text-decoration: none;
-    font-weight: bold;
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+    font-size:1.3rem;
 }
 
-nav a.active {
-    text-decoration: underline;
+nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: white;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after, nav a.active::after {
+    width: 100%;
+}
+
+.skullnamelogo {
+    font-family: "Honk", system-ui;
+    color:white;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
 }
 
 .product-grid {
@@ -84,5 +141,78 @@ nav a.active {
     border: 1px solid #fff;
     color: #fff;
     padding: 0.3rem 0.6rem;
+    cursor: pointer;
+}
+
+#content {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+    padding: 2rem;
+    min-height: 300px;
+}
+#content.fade-out {
+    opacity: 0;
+}
+
+.cart-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 998;
+}
+
+.cart-overlay.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.cart-sidebar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100%;
+    background-color: #111;
+    color: white;
+    padding: 1rem;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
+    transition: right 0.4s ease;
+    z-index: 999;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-sidebar.open {
+    right: 0;
+}
+
+.cart-items {
+    flex-grow: 1;
+    margin-bottom: 2rem;
+}
+
+#cartTotal {
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    margin-top: auto;
+    position: absolute;
+    bottom: 3rem;
+    width: 10rem;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
     cursor: pointer;
 }
