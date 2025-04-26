@@ -10,6 +10,18 @@ function addToCart(item) {
     updateCartUI();
 }
 
+function removeFromCart(id) {
+    const item = cart.find(i => i.id == id);
+    if(item) {
+        item.quantity -= 1;
+        if(item.quantity <= 0) {
+            const index = cart.indexOf(item);
+            cart.splice(index, 1);
+        }
+        updateCartUI();
+    }
+}
+
 function updateCartUI() {
     const cartItems = document.getElementById('cartItems');
     const cartTotal = document.getElementById('cartTotalPrice');
@@ -34,6 +46,7 @@ function updateCartUI() {
                 <strong>${item.name}</strong><br>
                 ${item.quantity} × ${item.price.toFixed(2)}€ = ${(item.quantity * item.price).toFixed(2)}€
             </div>
+            <button class="remove-item" data-id="${item.id}">quitar</button>
             <hr>
         `;
         cartItems.appendChild(itemEl);
@@ -43,6 +56,13 @@ function updateCartUI() {
 
     cartName.textContent = `carrito (${totalItems})`;
     cartTotal.textContent = `${total.toFixed(2)}€`;
+
+    document.querySelectorAll('.remove-item').forEach(button => {
+        button.addEventListener("click", e => {
+            const id = e.target.getAttribute("data-id");
+            removeFromCart(id);
+        });
+    });
 }
 
 document.addEventListener("DOMContentLoaded", () => {

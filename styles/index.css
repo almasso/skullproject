@@ -243,8 +243,7 @@ nav a:hover::after, nav a.active::after {
     margin-top: 10px;
     padding: 5px 10px;
     background-color: #333;
-    border: none;
-    cursor: pointer;
+    cursor:pointer;
 }
 
 .price {
@@ -253,4 +252,17 @@ nav a:hover::after, nav a.active::after {
     font-style: normal;
     margin: 0.5rem 0;
     font-weight: bold;
+}
+
+.remove-item {
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "ROND" 0;
+    background-color:#333;
+    color:#fff;
+    margin-top:1rem;
+    cursor:pointer;
 }
