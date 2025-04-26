@@ -9,6 +9,8 @@ async function loadPage(pageName) {
         const response = await fetch(`pages/${pageName}.html`);
         const html = await response.text();
         content.innerHTML = html;
+        if(pageName == "tienda") loadProductsFromJson();
+        
     } catch (e) {
         
     }

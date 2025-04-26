@@ -8,7 +8,7 @@
         <link rel="icon" type="image/x-icon" href="assets/images/logos/LogazoPNG.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Electrolize&display=swap" rel="stylesheet">
 
         
     </head>
@@ -22,14 +22,14 @@
                 </a>
             </div>
             <div class="cart">
-                <a href="">carrito (0)</a>
+                <a href="" id="cartName">carrito (0)</a>
             </div>
         </header>
         <!--Barra de navegación-->
         <nav>
             <a href="" class="active">inicio</a>
-            <a href="">nosotros</a>
             <a href="">tienda</a>
+            <a href="">nosotros</a>
             <a href="">noticias</a>
         </nav>
         
@@ -50,12 +50,13 @@
                 <div id="cartItems">
                 </div>
                 <div id="cartTotal" style="margin-top: 1rem; font-weight: bold;">
-                    total: 0.00€
+                    total: <div class="price" id="cartTotalPrice">0,00€</div>
                 </div>
             </div>
         </div>
 
         <script src="js/contentswitching.js"></script>
         <script src="js/cartsidebar.js"></script>
+        <script src="js/shop.js"></script>
     </body>
 </html>
