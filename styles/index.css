@@ -200,10 +200,16 @@ nav a:hover::after, nav a.active::after {
     flex-direction: column;
 }
 
+.cart-items-wrapper::-webkit-scrollbar {
+    display:none;
+}
+
 .cart-items-wrapper {
     flex:1;
     overflow-y:auto;
     margin-bottom: 1rem;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 #cartItems .cart-item {
@@ -323,4 +329,31 @@ nav a:hover::after, nav a.active::after {
     gap: 1rem;
     justify-content: center;
     padding: 1rem;
+}
+
+.banner {
+    width:100%;
+    object-fit:cover;
+    height:auto;
+    display:block;
+}
+
+.banner-text {
+    font-family: Honk, system-ui;
+    position:absolute;
+    left:4%;
+    font-size:10rem;
+    bottom:-19rem;
+    color:rgba(100, 100, 100, 1.0);
+    text-align: center;
+}
+
+.iniciosection {
+    margin: 0;
+    height:100%;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow:hidden;
+    position:relative;
 }
