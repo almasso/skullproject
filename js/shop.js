@@ -2,7 +2,6 @@ function loadProducts(products) {
     const productList = document.getElementById("productList");
     productList.innerHtml = "";
 
-    console.log(productList)
     products.forEach(product => {
         const productDiv = document.createElement("div");
         productDiv.classList.add("product-card");
@@ -14,7 +13,6 @@ function loadProducts(products) {
         `;
         productList.appendChild(productDiv);
     });
-    console.log(productList)
 }
 
 document.addEventListener("click", (e) => {
