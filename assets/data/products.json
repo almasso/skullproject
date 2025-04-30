@@ -1,8 +1,62 @@
 [
     {
         "id": 1,
-        "name": "VAPE",
+        "name": "art waste",
         "price" : 30.00,
-        "image" : "assets/images/shirts/YoVapeo.png"
+        "image" : "assets/images/shirts/art_waste.png"
+    },
+    {
+        "id": 2,
+        "name": "end",
+        "price": 30.00,
+        "image": "assets/images/shirts/end_.png"
+    },
+    {
+        "id": 3,
+        "name": "referencia",
+        "price": 30.00,
+        "image": "assets/images/shirts/mario_style.png"
+    },
+    {
+        "id": 4,
+        "name": "reclaim",
+        "price": 30.00,
+        "image": "assets/images/shirts/reclaim_.png"
+    },
+    {
+        "id": 5,
+        "name": "man",
+        "price": 30.00,
+        "image": "assets/images/shirts/man_shirt.png"
+    },
+    {
+        "id": 6,
+        "name": "woman",
+        "price": 30.00,
+        "image": "assets/images/shirts/woman_shirt.png"
+    },
+    {
+        "id": 7,
+        "name": "enby",
+        "price": 30.00,
+        "image": "assets/images/shirts/enby_shirt.png"
+    },
+    {
+        "id": 8,
+        "name": "hand",
+        "price": 30.00,
+        "image": "assets/images/shirts/skullproject3_skeletonhand.png"
+    },
+    {
+        "id": 9,
+        "name": "little guy",
+        "price": 30.00,
+        "image": "assets/images/shirts/SKULL-removebg-preview.png"
+    },
+    {
+        "id": 9,
+        "name": "basic",
+        "price": 30.00,
+        "image": "assets/images/shirts/SKULL_PROJ3CT.png"
     }
 ]
