@@ -54,9 +54,33 @@
         "image": "assets/images/shirts/SKULL-removebg-preview.png"
     },
     {
-        "id": 9,
+        "id": 10,
         "name": "basic",
         "price": 30.00,
         "image": "assets/images/shirts/SKULL_PROJ3CT.png"
+    },
+    {
+        "id": 11,
+        "name": "earth",
+        "price": 30.00,
+        "image": "assets/images/shirts/shirt1.png"
+    },
+    {
+        "id": 12,
+        "name": "tired",
+        "price": 30.00,
+        "image": "assets/images/shirts/shirt2.png"
+    },
+    {
+        "id": 13,
+        "name": "submachine",
+        "price": 30.00,
+        "image": "assets/images/shirts/shirt3.png"
+    },
+    {
+        "id": 14,
+        "name": "game",
+        "price": 30.00,
+        "image": "assets/images/shirts/shirt4.png"
     }
 ]
