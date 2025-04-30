@@ -196,9 +196,18 @@ nav a:hover::after, nav a.active::after {
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
     transition: right 0.4s ease;
     z-index: 999;
-    overflow-y: auto;
     display: flex;
     flex-direction: column;
+}
+
+.cart-items-wrapper {
+    flex:1;
+    overflow-y:auto;
+    margin-bottom: 1rem;
+}
+
+#cartItems .cart-item {
+    margin-bottom: 1rem;
 }
 
 .cart-sidebar.open {
@@ -221,9 +230,10 @@ nav a:hover::after, nav a.active::after {
     padding: 1rem;
     background-color: #222;
     margin-top: auto;
-    position: absolute;
     bottom: 3rem;
     width: 10rem;
+    box-sizing: border-box;
+    margin-bottom:2rem;
 }
 
 .close-btn {
