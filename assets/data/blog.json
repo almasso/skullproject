@@ -1,0 +1,34 @@
+[
+    {
+        "title": "información sobre envíos, devoluciones, métodos de pago y tiempos de entrega",
+        "description": "información importante para nuestros clientes",
+        "content": "bueno gente, la verdad que por suerte, aún no hemos tenido ningún problema con que a alguno no os lleguen los pedidos, o que se os retrasen, pero mejor prevenir que curar, así que vamos a hacer un pequeño post para que sepaís que hacer en caso de que ocurriera: \nlo primero sería escribirnos, ya sea por correo o por mensaje en alguna de nuestras redes, explicando el problema, y proporcionándonos el número de vuestro pedido. a partir de ahí nosotros investigaríamos para ver que ha pasado, y os informaríamos. si el pedido es recuperable os acabaría llegando y por supuesto con un buen descuento por las molestias, y si se ha perdido, os enviaríamos otro y unos cupones para desuentos en pedidos futuros. \naunque por ahora esperamos de que todo siga llendo así de bien y nos dure mucho la racha :D",
+        "image": "assets/images/blog/packet.jpg",
+        "tag": "faq",
+        "date": "30-04-2025"
+    },
+    {
+        "title": "mostrando nuestros procesos de fabricación",
+        "description": "descubre cómo tu camiseta llega del vertedero a ti",
+        "content": "hoola a todos :), muchos nos habéis escrito porque teníais curiosidad sobre como funcionan distintas partes de nuestro proceso, así que hemos decidido resolver todas vuestras dudas y curiosidades de golpe y hacer un pequeño vídeo que explica todo el proceso, desde la recolección de residuos hasta el envío. así que si os interesa lo tenéis disponible desde ya en nuestro insta :b",
+        "image": "assets/images/blog/reciclado.jfif",
+        "tag": "noticias",
+        "date": "30-04-2025"
+    },
+    {
+        "title": "estaremos en MOMAD 2025",
+        "description": "ven a visitarnos este septiembre",
+        "content": "POR FIN!! tenemos unas ganas increíbles de conoceros a todxs en persona, así que os esperamos en el stand 13. traeros a todos vuestros colegas, hermanos, parejas y hasta la abuela. tendremos pegatinas, nuevos diseños exclusivos y muchas más sorpresas ;b. \nNI SE OS OCURRA PERDEROSLO",
+        "image": "assets/images/blog/skullmomad.png",
+        "tag": "noticias",
+        "date": "30-04-2025"
+    },
+    {
+        "title": "esto es skullproj3ct",
+        "description": "descubre la nueva marca de moda que quiere romper con todo",
+        "content": "¿alguna vez habéis ido por la calle y en menos de 30 mins habéis visto a más de 5 personas llevando la misma camiseta de moda de turno, que no se volverán a poner, y acabará flotando en alguna isla de basura en medio del mar? nosotros también, y estamos hartos. en skullproj3ct queremos poner fin al fast-fashion, al llevar lo mismo que todo el mundo, a la polución textil, que es una de las industrias que más contamina, y a llenarle el bolsillo a multinacionales que emplean mano de obra poco menos que esclavista. con nosotros tú decides, apoyas al planeta, al comercio local, a la producción sostenible, y de paso te llevas unas camisetas guapísimas. \nyo lo tengo claro, ¿y tú? ",
+        "image": "assets/images/blog/skullproj3ct.png",
+        "tag": "noticias",
+        "date": "30-04-2025"
+    }
+]

@@ -10,6 +10,7 @@ async function loadPage(pageName) {
         const html = await response.text();
         content.innerHTML = html;
         if(pageName == "tienda") loadProductsFromJson();
+        else if(pageName == "noticias") loadNews();
         
     } catch (e) {
         
