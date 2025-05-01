@@ -3,84 +3,112 @@
         "id": 1,
         "name": "art waste",
         "price" : 30.00,
-        "image" : "assets/images/shirts/art_waste.png"
+        "image" : "assets/images/shirts/art_waste.png",
+        "description": "camiseta degradada de naranja a verde con el texto \"make art, not waste.\" y con el logo de la marca. elaborada con 100% material reciclado.",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     },
     {
         "id": 2,
         "name": "end",
         "price": 30.00,
-        "image": "assets/images/shirts/end_.png"
+        "image": "assets/images/shirts/end_.png",
+        "description": "camiseta degradada de azul a naranja con el texto \"the end is never the end\" y con el logo de la marca. elaborada con 100% material reciclado.",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     },
     {
         "id": 3,
         "name": "referencia",
         "price": 30.00,
-        "image": "assets/images/shirts/mario_style.png"
+        "image": "assets/images/shirts/mario_style.png",
+        "description": "camiseta negra con el texto \"sorry but your princess is in another castle\", con una fuente de videojuego retro, y con el logo de la marca. elaborada con 100% material reciclado.",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     },
     {
         "id": 4,
         "name": "reclaim",
         "price": 30.00,
-        "image": "assets/images/shirts/reclaim_.png"
+        "image": "assets/images/shirts/reclaim_.png",
+        "description": "camiseta negra con el texto \"reclaim waste. reclaim souls.\" y con el logo de la marca. elaborada con 100% material reciclado.",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     },
     {
         "id": 5,
         "name": "man",
         "price": 30.00,
-        "image": "assets/images/shirts/man_shirt.png"
+        "image": "assets/images/shirts/man_shirt.png",
+        "description": "camiseta beige con el texto \"man...\" y con el logo de la marca. elaborada con 100% material reciclado.",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     },
     {
         "id": 6,
         "name": "woman",
         "price": 30.00,
-        "image": "assets/images/shirts/woman_shirt.png"
+        "image": "assets/images/shirts/woman_shirt.png",
+        "description": "camiseta beige con el texto \"woman...\" y con el logo de la marca. elaborada con 100% material reciclado.",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     },
     {
         "id": 7,
         "name": "enby",
         "price": 30.00,
-        "image": "assets/images/shirts/enby_shirt.png"
+        "image": "assets/images/shirts/enby_shirt.png",
+        "description": "camiseta beige con el texto \"enby...\" y con el logo de la marca. elaborada con 100% material reciclado.",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     },
     {
         "id": 8,
         "name": "hand",
         "price": 30.00,
-        "image": "assets/images/shirts/skullproject3_skeletonhand.png"
+        "image": "assets/images/shirts/skullproject3_skeletonhand.png",
+        "description": "camiseta beige con el texto \"skullproj3ct\" y con una mano de esqueleto. elaborada con 100% material reciclado.",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     },
     {
         "id": 9,
         "name": "little guy",
         "price": 30.00,
-        "image": "assets/images/shirts/SKULL-removebg-preview.png"
+        "image": "assets/images/shirts/SKULL-removebg-preview.png",
+        "description": "camiseta azul con un curioso personaje. elaborada con 100% material reciclado.",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     },
     {
         "id": 10,
         "name": "basic",
         "price": 30.00,
-        "image": "assets/images/shirts/SKULL_PROJ3CT.png"
+        "image": "assets/images/shirts/SKULL_PROJ3CT.png",
+        "description": "camiseta blanca con el texto \"skullproj3ct\" y con el logo de la marca. elaborada con 100% material reciclado.",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     },
     {
         "id": 11,
         "name": "earth",
         "price": 30.00,
-        "image": "assets/images/shirts/shirt1.png"
+        "image": "assets/images/shirts/shirt1.png",
+        "description": "camiseta gris oscura con el texto \"you are here somewhere...\" y con el la esfera terrestre. elaborada con 100% material reciclado.",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     },
     {
         "id": 12,
         "name": "tired",
         "price": 30.00,
-        "image": "assets/images/shirts/shirt2.png"
+        "image": "assets/images/shirts/shirt2.png",
+        "description": "camiseta gris oscura con el texto \"damn... im tired\" y con el logo de la marca. elaborada con 100% material reciclado.",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     },
     {
         "id": 13,
         "name": "machine gun",
         "price": 30.00,
-        "image": "assets/images/shirts/shirt3.png"
+        "image": "assets/images/shirts/shirt3.png",
+        "description": "camiseta blanca con el texto \"this is me if u dont take care of the planet\" y un esqueleto sujetando dos metralletas. elaborada con 100% material reciclado.",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     },
     {
         "id": 14,
         "name": "game",
         "price": 30.00,
-        "image": "assets/images/shirts/shirt4.png"
+        "image": "assets/images/shirts/shirt4.png",
+        "description": "camiseta beige con el texto \"i lost the game...\" y con el logo de la marca. elaborada con 100% material reciclado.",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     }
 ]

@@ -44,7 +44,7 @@ function updateCartUI() {
             <img src="${item.image}" alt="${item.name}" class="cart-item-image">
             <div>
                 <strong>${item.name}</strong><br>
-                ${item.quantity} × ${item.price.toFixed(2)}€ = ${(item.quantity * item.price).toFixed(2)}€
+                <span class="price">${item.quantity} × ${item.price.toFixed(2)}€ = ${(item.quantity * item.price).toFixed(2)}€</span>
             </div>
             <button class="remove-item" data-id="${item.id}">quitar</button>
             <hr>

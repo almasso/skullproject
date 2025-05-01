@@ -26,5 +26,4 @@ function loadNews() {
             container.appendChild(div);
         });
     });
-
 }
